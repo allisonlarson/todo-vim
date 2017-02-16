@@ -1,0 +1,28 @@
+*todo.txt* Vim plugin for .todo files  Last change: 2017 Feb 16
+
+===============================================================================
+CONTENTS
+
+  1.Priorities................................................|todo-priorities|
+  2. Commands...................................................|todo-commands|
+    2.1. Sorting....................................................|todo-sort|
+
+===============================================================================
+1. Priorities                                                 *todo-priorities*
+
+Priorities exist between 1-3, where 1 is the most important and 3 is the least
+important. There are also two non ranking priorities, unknown(!) and done(x).
+When sorting, unknown will always move to the top and done to the bottom.
+
+Each main todo with major priority must be separated from others by newlines.
+Any lines beneath the major priority line can be prioritized, but will not be
+sorted.
+
+===============================================================================
+2. Commands
+*todo-commands*
+
+2.1 Sorting                                                         *todo-sort*
+    `<localleader>s` Sort the file based on priorities
+
+===============================================================================
