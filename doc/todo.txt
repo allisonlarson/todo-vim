@@ -5,7 +5,8 @@ CONTENTS
 
   1.Priorities................................................|todo-priorities|
   2. Commands...................................................|todo-commands|
-    2.1. Sorting....................................................|todo-sort|
+    2.1 Sorting.....................................................|todo-sort|
+    2.2 Finishing.................................................|todo-finish|
 
 ===============================================================================
 1. Priorities                                                 *todo-priorities*
@@ -24,5 +25,8 @@ sorted.
 
 2.1 Sorting                                                         *todo-sort*
     `<localleader>s` Sort the file based on priorities
+
+2.2 Finishing                                                     *todo-finish*
+    `<localleader>x` Finish the major level todo, replacing its priority with x
 
 ===============================================================================

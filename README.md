@@ -49,6 +49,10 @@ to:
 
 Major TODOs must be surrounded by newlines for sorting to work. Sorting subtasks is not supported, but will be syntax highlighted.
 
+## Finishing
+
+`<localleader>x` will replace the current priority level with an x, marking it complete. This can be done from any of the sublines to update the major lined todo.
+
 ## Help
 
 To install help, run `:helptags ~/.vim/doc` after copying files. Then access help with `:h todo.txt`
