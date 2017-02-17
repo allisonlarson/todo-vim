@@ -8,6 +8,8 @@ Simple syntax highlighter and priority manager for a .todo file.
     cd todo-vim
     cp -R * ~/.vim
 
+or install via pathogen
+
 ## Priorities
 
 1-3 Rankings, where 1 is most important and 3 is least important
